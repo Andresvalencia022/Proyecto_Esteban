@@ -1,0 +1,159 @@
+*{
+        padding: 0px;
+        margin: 0px;
+}
+
+body{
+   background-color: rgb(199, 199, 199);
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 85%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 20px grey;
+    background-color: white;
+
+}
+
+
+/*menu*/
+#nav {
+    clear: both;
+    background-color: #363636;
+    padding: 1px;
+    height: 60px;
+    border-bottom: 4px solid #01B1EA;
+    ;
+}
+
+#nav #ul {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+#ul li {
+    width: 10%;
+    height: 60px;
+    line-height: 55px;
+    background-color: #363636;
+    float: right;
+    text-align: center;
+    margin: 0.5px;
+}
+
+#ul a {
+    display: block;
+    /*para que se comporte como Bloque*/
+    text-decoration: none;
+    height: 100%;
+    color: white;
+    
+}
+
+.Alerta_verde {
+    color: green;
+}
+
+.Alerta_roja {
+    /* display: block; */
+    color: red;
+}
+.centro {
+    margin: auto;
+    width: 37%;
+    min-height: 450px;
+    background-color: rgb(245, 245, 245);
+    border-left: 1px solid #ccc;
+    box-shadow: -5px -1px 5px #DDD;
+    padding: 15px;
+}
+.Caja{
+    width: 99.3%;
+    height: 13cm;
+    padding: 5px;
+}
+.caja_form{
+    background-color: rgb(126, 81, 171);
+    width: 24%;
+    height: 93.5%;
+    float: left;
+    padding: 4px;
+    text-align: center;
+    padding: 20px;
+}
+
+.caja_tabla{
+    background-color: rgba(13, 92, 202, 0.319);
+    width: 70%;
+    height: 100%;
+    float: left;
+    padding: 4px;
+}
+.form_tabla{
+   background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 13px;
+    border-radius: 5px;
+}
+.input_label{
+   
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+.tftable {
+  font-size:12px;
+  color:#333333;
+  width:100%;
+  border-width: 1px;
+  border-color: #729ea5;
+  border-collapse: collapse;
+}
+.tftable th {
+  font-size:12px; 
+  background-color:#acc8cc;
+  border-width: 1px;padding: 8px;
+  border-style: solid;
+  border-color: #729ea5;
+  text-align:left;
+}
+.tftable tr {
+  background-color:#d4e3e5;
+}
+.tftable td {
+  font-size:12px;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #729ea5;
+  text-align: center;
+}
+.tftable tr:hover {
+  background-color:#ffffff;
+}
+
+.a-link{
+    display: block;
+    height: 100%;
+}
+
+svg{
+    width: 30px;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    padding: 8px;
+    background: #222222;
+    border-top: 4px solid #01B1EA;
+    color: white;
+}
+
+
